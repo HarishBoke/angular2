@@ -5,6 +5,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './appComponent';
 import {Login} from './components/login/loginComponent';
 import {Welcome} from './components/welcome/welcomeComponent';
+import {UserProfile} from './components/profile/userProfileComponent';
+
+import {UserService} from "./services/user.service";
 
 @NgModule({
   imports:      [
@@ -15,7 +18,8 @@ import {Welcome} from './components/welcome/welcomeComponent';
       {'path':'welcome', component:Welcome}
     ])
  ],
-  declarations: [ AppComponent, Login, Welcome],
-  bootstrap:    [ AppComponent ]
+  declarations: [ AppComponent, Login, Welcome, UserProfile],
+  bootstrap:    [ AppComponent ],
+  providers: [UserProfile]
 })
 export class AppModule { }

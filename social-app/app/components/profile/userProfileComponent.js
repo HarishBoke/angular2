@@ -8,25 +8,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var Login = (function () {
-    function Login() {
-        this.loged = false;
-        this.user = { name: 'Hello' };
+var core_1 = require("@angular/core");
+var UserProfile = (function () {
+    function UserProfile() {
     }
-    Login.prototype.statusChangeCallback = function (response) {
-        if (response.status === 'connected') {
-            console.log('connected');
-        }
-    };
-    Login = __decorate([
+    UserProfile = __decorate([
         core_1.Component({
-            selector: 'app-login',
-            templateUrl: 'app/components/login/login.html'
+            selector: "user-profile",
+            template: "profile.html"
         }), 
         __metadata('design:paramtypes', [])
-    ], Login);
-    return Login;
+    ], UserProfile);
+    return UserProfile;
 }());
-exports.Login = Login;
-//# sourceMappingURL=loginComponent.js.map
+exports.UserProfile = UserProfile;
+//# sourceMappingURL=userProfileComponent.js.map

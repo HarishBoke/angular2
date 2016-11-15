@@ -8,25 +8,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var Login = (function () {
-    function Login() {
-        this.loged = false;
-        this.user = { name: 'Hello' };
+var core_1 = require("@angular/core");
+var UserService = (function () {
+    function UserService() {
     }
-    Login.prototype.statusChangeCallback = function (response) {
-        if (response.status === 'connected') {
-            console.log('connected');
-        }
+    UserService.prototype.getUser = function () {
     };
-    Login = __decorate([
-        core_1.Component({
-            selector: 'app-login',
-            templateUrl: 'app/components/login/login.html'
-        }), 
+    UserService = __decorate([
+        core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], Login);
-    return Login;
+    ], UserService);
+    return UserService;
 }());
-exports.Login = Login;
-//# sourceMappingURL=loginComponent.js.map
+exports.UserService = UserService;
+//# sourceMappingURL=user.service.js.map

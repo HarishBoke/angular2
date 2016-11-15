@@ -14,6 +14,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var appComponent_1 = require('./appComponent');
 var loginComponent_1 = require('./components/login/loginComponent');
 var welcomeComponent_1 = require('./components/welcome/welcomeComponent');
+var userProfileComponent_1 = require('./components/profile/userProfileComponent');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -27,8 +28,9 @@ var AppModule = (function () {
                     { 'path': 'welcome', component: welcomeComponent_1.Welcome }
                 ])
             ],
-            declarations: [appComponent_1.AppComponent, loginComponent_1.Login, welcomeComponent_1.Welcome],
-            bootstrap: [appComponent_1.AppComponent]
+            declarations: [appComponent_1.AppComponent, loginComponent_1.Login, welcomeComponent_1.Welcome, userProfileComponent_1.UserProfile],
+            bootstrap: [appComponent_1.AppComponent],
+            providers: [userProfileComponent_1.UserProfile]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

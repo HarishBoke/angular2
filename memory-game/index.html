@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>A simple memory game</title>
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="main-container container">
+			<h3 class="text-center text-primary">Simple memory game</h3>
+			<div class="notifications">
+				<div id="success-notification" class="alert alert-success animated fadeInDown">
+				  Removed Matching tiles!
+				</div>
+				<div id="error-notification" class="alert alert-warning animated fadeInDown">
+				  Tiles do not match!
+				</div>
+			</div>
+				<div id="restartGame" class="alert alert-info animated zoomIn">
+				  	<strong>Good Job!</strong>
+					<div class="text-center">
+						<button id="generateNumb" onClick="startGame()" class="btn btn-primary">Play Again</button>
+					</div>
+				</div>
+				<!-- <button id="generateNumb" onClick="startGame()" class="btn btn-primary">Play</button> -->
+
+			<div id="gameContainer" class="row">
+
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>	

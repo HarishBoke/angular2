@@ -1,0 +1,80 @@
+[ 
+    {
+        "id": 100,
+        "name":"Harish",
+        "lastname": "Boke",
+        "personalCustomer": "0000002213",
+        "dob":"2/16/1990",
+        "motherMaidenName": "Amy",
+        "complaints": 2,
+        "transactionSecurity":"Level-0",
+        "securityAction": true,
+        "KYC":true,
+        "case": 0
+    },
+    {
+        "id": 101,
+        "name":"Sanjay",
+        "lastname": "Bharekar",
+        "personalCustomer": "0000002213",
+        "dob":"2/16/1980",
+        "motherMaidenName": "Amy",
+        "complaints": 2,
+        "transactionSecurity":"Level-0",
+        "securityAction": true,
+        "KYC":true,
+        "case": 0
+    },
+    {
+        "id": 103,
+        "name":"Akshay",
+        "lastname": "Sonawane",
+        "personalCustomer": "0000002213",
+        "dob":"2/16/1980",
+        "motherMaidenName": "Amy",
+        "complaints": 2,
+        "transactionSecurity":"Level-0",
+        "securityAction": true,
+        "KYC":true,
+        "case": 0
+    },
+    {
+        "id": 104,
+        "name":"Rahul",
+        "lastname": "Rawade",
+        "personalCustomer": "0000002213",
+        "dob":"2/16/1980",
+        "motherMaidenName": "Amy",
+        "complaints": 2,
+        "transactionSecurity":"Level-0",
+        "securityAction": true,
+        "KYC":true,
+        "case": 0
+    },
+    {
+        "id":105,
+        "name":"Deepak",
+        "lastname": "Shejwal",
+        "personalCustomer": "0000002213",
+        "dob":"2/16/1980",
+        "motherMaidenName": "Amy",
+        "complaints": 2,
+        "transactionSecurity":"Level-0",
+        "securityAction": true,
+        "KYC":true,
+        "case": 0
+    },
+    {
+        "id":106,
+        "name":"Hidayat",
+        "lastname": "Shaikh",
+        "personalCustomer": "0000002213",
+        "dob":"2/16/1980",
+        "motherMaidenName": "Amy",
+        "complaints": 2,
+        "transactionSecurity":"Level-0",
+        "securityAction": true,
+        "KYC":true,
+        "case": 0
+    }
+]

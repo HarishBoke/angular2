@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <base href="/">
+    <title>Angular QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="It's RnD and prototype App by Harish Boke, It's responsive, clean coded and mobile friendly">
+    <meta name="keywords" content="bootstrap, admin, dashboard, flat admin template, responsive, Social" />  
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="app/assets/css/bootstrap.css" />
+  
+    <link rel="stylesheet" href="app/assets/css/root.css">
+
+    <!-- 1. Load libraries -->
+     <!-- Polyfill(s) for older browsers -->
+   
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+   <!-- third party lib -->
+   
+   <script src="node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+   
+    
+
+    <style>
+		.axis path,
+		.axis line {
+		  fill: none;
+		  stroke: @gray-border;
+		  shape-rendering: crispEdges;
+		}
+		
+		.axis text {
+		  fill: #939698;
+		}
+		
+		.dot {
+		  fill: white;
+		  stroke: #3BB0C5;
+		  stroke-width: 1.5px;
+		  pointer-events: none;
+		  transition: stroke .2s, stroke-width .2s;
+		}
+		
+		.line {
+		  fill: none;
+		  stroke: #3BB0C5;
+		  stroke-width: 1.5px;
+		  pointer-events: none;
+		}
+		
+		.area {
+		  fill: #3bb0c5;
+		}
+		
+		.valid.area {
+		  opacity: 0.6;
+		}
+		
+		.overflown.line {
+		  stroke: red;
+		}
+		
+		.overflown.dot {
+		  stroke: red;
+		}
+		
+		.overflown.area {
+		  fill: #ef8c62;
+		  opacity: 0.6;
+		}
+		
+		.overflown.cliped.area {
+		  fill: #fff;
+		  opacity: 1;
+		}
+
+
+    </style>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+  <!-- 3. Display the application -->
+  <body>
+    <social-app>Loading...</social-app>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "/api/": "/",
+  "/api/": "/posts",
+  "/api/": "/comments",
+  "/api/": "/people",
+  "/blog/:resource/:id/show": "/:resource/:id"
+}

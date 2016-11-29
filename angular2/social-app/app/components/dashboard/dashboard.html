@@ -1,0 +1,79 @@
+ <!-- Start Page Loading -->
+  <!--div class="loading"><img src="app/assets/img/loading.gif" alt="loading-img"></div -->
+  <!-- End Page Loading -->
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+<app-header></app-header>
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+
+<!-- //////////////////////////////////////////////////////////////////////////// --> 
+<!-- START SIDEBAR -->
+<app-sidebar></app-sidebar>
+
+<!-- END SIDEBAR -->
+<!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+<!-- START CONTENT -->
+<div class="content">
+
+
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+<!-- START CONTAINER -->
+<div class="container-no-padding">
+
+      <!-- Start Post -->
+          <div class="panel panel-default">
+            <div class="panel-body status">
+              <ul class="panel-tools panel-tools-hover">
+                <li><a class="icon expand-tool"><i class="fa fa-expand"></i></a></li>
+                <li><a class="icon closed-tool"><i class="fa fa-times"></i></a></li>
+              </ul>
+              <div class="who clearfix">
+                <!-- img src="app/assets/img/profileimg2.png" alt="img" -->
+                <h3><b>Total Income</b>:  {{totalIncome}}</h3>
+                <!--span class="from"><b>1 days ago</b> via Mobile, New York</span -->
+              </div>
+              <!--<div class="text">
+                    <table class="table table-stripped">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Amount</th>
+                            </tr>    
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div *ngFor="let category of incomeCategories"> {{category}}</div>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>                  
+            </div> -->
+              <ul class="links">
+                <li><a href="#"><i class="fa fa-thumbs-o-up"></i> Like</a></li>
+                <li><a href="#"><i class="fa fa-comment-o"></i> Comment</a></li>
+                <li><a href="#"><i class="fa fa-share-square-o"></i> Share</a></li>
+              </ul>
+            </div>
+          </div>
+        <!-- End Post -->
+
+  
+    <!--area-chart></area-chart -->
+    <div class="panel panel-default">
+        <div class="panel-heading">Total Income</div>
+        <div class="panel-body">
+            <ul>
+                <li>{{totalIncome}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- END CONTAINER -->
+ <!-- //////////////////////////////////////////////////////////////////////////// --> 
+
+</div>
+<!-- End Content -->
